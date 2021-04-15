@@ -11,18 +11,19 @@
 <!--
       (Do not remove this comment block.)
   Version: 3.903
-  Last modified: 1 June 2020
+  Last modified: April 15, 2021
   Maintainers:
         Gnucash Development Team <gnucash-devel@gnucash.org>
   Translators:
+        zhengmingpei <zhengmingpei@163.com>
                (translators put your name and email here)
 -->
-<book id="index" lang="en-US"
+<book id="index" lang="zh-"
       xmlns:xi="http://www.w3.org/2001/XInclude">
 <!-- please do not change the id; for translations, change lang to -->
 <!-- appropriate code -->
  <bookinfo>
-  <title>&app; Tutorial and Concepts Guide</title>
+  <title>&app; 入门教程及概念指南</title>
   <edition>V&manrevision;</edition>
 
   <copyright>
@@ -65,14 +66,10 @@
    <holder>Carol Champagne and Chris Lyttle</holder>
   </copyright>
 
- <!-- translators: uncomment this:
-
   <copyright>
-   <year>2000</year>
-   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+   <year>2021</year>
+   <holder>zhengmingpei (Simple Chinese translation)</holder>
   </copyright>
-
-   -->
 
     <publisher>
        <publishername>The &appname; Documentation Team</publishername>
@@ -531,6 +528,18 @@
   maintainers,  etc. Commented out by default.
   Note: Do not use the addess tag, if you do not want to be contacted
         with user questions over decades. -->
+  <para>
+     <othercredit role="translator">
+      <firstname>mingpei</firstname>
+      <surname>zheng</surname>
+      <affiliation>
+        <orgname> &appname; 简体中文使用者</orgname>
+        <address> <email>zhengmingpei@163.com</email> </address>
+      </affiliation>
+      <contrib>Simple Chinese translation</contrib>
+    </othercredit>.
+  </para>
+-
 <!-- 
   <para>This - still incomplete - translation was created by the
     Latin &appname; translation team, which included until now
@@ -548,14 +557,14 @@
 </preface>
 
 <part>
-    <title>Getting Started</title>
+    <title>入门</title>
 <xi:include href="ch_oview.xml" />
 <xi:include href="ch_basics.xml" />
 <xi:include href="ch_importing.xml" />
 <xi:include href="ch_configuring.xml" />
 </part>
 <part>
-    <title>Managing Personal Finances</title>
+    <title>管理个人财务</title>
 <xi:include href="ch_cbook.xml" />
 <xi:include href="ch_expenses.xml" />
 <xi:include href="ch_cc.xml" />
@@ -566,7 +575,7 @@
 <xi:include href="ch_currency.xml" />
 </part>
 <part>
-    <title>Managing Business Finances</title>
+    <title>管理企业财务</title>
 <xi:include href="ch_bus_features.xml" />
 <xi:include href="ch_budgets.xml" />
 <xi:include href="ch_oth_assets.xml" />
@@ -575,7 +584,7 @@
 <xi:include href="ch_import_business_data.xml" />
 </part>
 <part>
-    <title>Appendices</title>
+    <title>附录</title>
 <xi:include href="gnc-glossary.xml" />
 <xi:include href="appendixa.xml" />
 <xi:include href="appendixb.xml" />
