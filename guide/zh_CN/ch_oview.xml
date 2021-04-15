@@ -300,58 +300,56 @@
   </sect1>
 
   <sect1 id="oview-about1">
-    <title>About this Book</title>
+    <title>关于本书</title>
 
-    <para>This manual&rsquo;s goal is to save you time. It will get you started
-    using &app; as quickly as possible.</para>
+    <para>这本手册的目的是节约你的时间，手册将能够使你尽快地开始使用
+    &app; 。</para>
 
-    <para>Each chapter follows a simple format. A chapter begins with a
-    <quote>Concepts</quote> discussion which introduces general themes and
-    terminology, addressed and used within that chapter. <quote>How-To</quote>
-    sections, which address specific procedures follow. Finally, a
-    <quote>Putting It All Together</quote> section ends the chapter by giving
-    detailed, concrete examples.</para>
+    <para>每个章节都遵循简单的格式。每个章节都由对
+    <quote>概念</quote>的讨论开始，这部分将会介绍本章中涉及和使用的一般主题和术语。
+    <quote>How-To</quote>部分，介绍特定的操作步骤。最后是
+    <quote>Putting It All Together</quote> 部分，将会给出一个详细的范例。</para>
 
-    <para>Beginning users will find the <quote>Concepts</quote> sections very
-    helpful. They provide a reference for good ways to track your finances,
-    and serve as a general introduction to financial background and
-    terminology. Experienced users can flip to the <quote>How-To</quote>
-    sections to quickly scan procedures. These sections provide to-the-point
-    steps for accomplishing specific tasks. The <quote>Putting It All
-    Together</quote> sections present real-world examples in the form of a
-    tutorial. Beginning with creation of a file in <xref linkend="chapter_basics"></xref>,
-    each successive chapter builds on the previous chapter&rsquo;s tutorial.</para>
+    <para>小白用户将会发现<quote>概念</quote>部分非常有帮助。这部分
+    为跟踪你的财务状况的良好方法提供了参考，并作为财务背景和术语的一般介绍。
+    有经验的用户可以直接跳转到<quote>How-To</quote>部分
+    快速浏览操作步骤，这部分给你提供了完成特定任务的细致步骤。
+    <quote>Putting It All Together</quote>部分以教程的形式展现了真实世界中的范例。
+    从<xref linkend="chapter_basics"></xref>中创建的一个文件开始，
+    后面每个连续的章节都是建立在上个章节的教程之上。</para>
 
-    <para>This manual is organized into 3 main parts: <itemizedlist>
+    <para>这本手册包括三个部分： <itemizedlist>
         <listitem>
-          <para><emphasis>Getting Started</emphasis></para>
+          <para><emphasis>入门</emphasis></para>
         </listitem>
 
         <listitem>
-          <para><emphasis>Managing Personal Finances</emphasis></para>
+          <para><emphasis>管理个人财务</emphasis></para>
         </listitem>
 
         <listitem>
-          <para><emphasis>Managing Business Finances</emphasis></para>
+          <para><emphasis>管理企业财务</emphasis></para>
         </listitem>
       </itemizedlist></para>
 
-    <para><emphasis>Getting Started</emphasis> provides you with the most
-        basic information needed to begin using &app;. The chapters in this section explain concepts that are fundamental to using &app;. New users of &app; should familiarize themselves with the information in these chapters to get you up and running: <itemizedlist>
+    <para><emphasis>入门</emphasis>给你提供了需要知道的助你使用&app;最基础的信息。
+         这个章节介绍了一些使用&app;的非常基础的概念，
+         &app;的新用户应该熟悉这个章节中的信息，方能更进一步。 <itemizedlist>
         <listitem>
-           <para><xref linkend="chapter_oview"></xref> - (this chapter) gives a general overview of &app;</para>
+           <para><xref linkend="chapter_oview"></xref> - 该章节给你提供了&app;的一览。</para>
        </listitem>
 
         <listitem>
-          <para><xref linkend="chapter_basics"></xref> - gives users a very brief introduction to accounting principles, and then provides information about how &app; structures its data. There is also information on basic interface elements in &app;. Finally, this chapter explains how &app; stores and manages your data.</para>
+          <para><xref linkend="chapter_basics"></xref> - 给用户提供了一个简短的会计准则的介绍，也提供了一些关于&app;怎么结构化数据的内容，
+          也有一些&app;界面元素内容的介绍。 最后，该章节解释了&app;怎么管理和存储你的数据。</para>
         </listitem>
 
         <listitem>
-          <para><xref linkend="chapter_accts"></xref> - gives further information about accounts and how to organize them.</para>
+          <para><xref linkend="chapter_accts"></xref> - 介绍了更高阶的关于账户的内容，以及怎么组织账户。</para>
         </listitem>
 
         <listitem>
-          <para><xref linkend="chapter_txns"></xref> - gives basic information about transactions and how to enter them.</para>
+          <para><xref linkend="chapter_txns"></xref> - 介绍了关于交易的基础知识，以及怎么编辑它们。</para>
         </listitem>
       </itemizedlist></para>
 
