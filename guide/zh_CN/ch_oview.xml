@@ -353,11 +353,9 @@
         </listitem>
       </itemizedlist></para>
 
-    <para><emphasis>Managing Personal Finances</emphasis> addresses
-    common applications and features of &app; in greater detail. You will
-    see more specific cases, based on frequently asked questions about
-    applying &app; to everyday situations. Here are the applications and
-    features covered in this part: <itemizedlist>
+    <para><emphasis>管理个人财务</emphasis>介绍了&app;常见应用和功能特点更加细致的内容。
+    你将看到更多基于日常使用&apps;常问到的一些问题的特殊示例，下面是这部分涵盖的应用和功能特点：
+    <itemizedlist>
         <listitem>
           <para><xref linkend="chapter_cbook"></xref></para>
         </listitem>
@@ -383,8 +381,7 @@
         </listitem>
       </itemizedlist></para>
 
-    <para><emphasis>Managing Business Finances</emphasis> discusses the
-    use of &app; in business accounting: <itemizedlist>
+    <para><emphasis>管理企业财务</emphasis> 讨论了&app;在企业财务中的应用： <itemizedlist>
 
         <listitem>
           <para><xref linkend="chapter_bus_features"></xref></para>
@@ -412,8 +409,7 @@
 
         </itemizedlist></para>
 
-    <para>This manual also includes several appendices, which contains extra information
-    you might want to know:</para>
+    <para>这个手册也包括一些附录，包括你可能想要知道的一些额外信息：</para>
 
     <itemizedlist>
        <listitem>
@@ -448,7 +444,7 @@
   </sect1>
 
   <sect1 id="more_help">
-    <title>Getting More Help</title>
+    <title>获取更多帮助</title>
 
     <para>&app; offers help in many ways, including the <link linkend="basics-tip2">
     <guilabel>Tip of the Day</guilabel></link>, context help, a website, a wiki, the mailing lists, and IRC chat.</para>
@@ -470,7 +466,7 @@
     </sect2>
 
     <sect2 id="website">
-      <title>&app; Website</title>
+      <title>&app; 网站</title>
       <para>The <ulink
       url="http://www.gnucash.org"><citetitle>&appname;</citetitle></ulink> website
       contains helpful information about the program and about any
@@ -493,7 +489,7 @@
    <sect2 id="on-line-assistance">
     <title>&app; On-line Assistance</title>
 
-    <bridgehead>Mailing List</bridgehead><para>The primary source of user support is the <ulink
+    <bridgehead>邮件列表</bridgehead><para>The primary source of user support is the <ulink
     url="mailto:gnucash-user@gnucash.org">user mailing list</ulink>. If
     you prefer a web forum-like presentation, you can use it via <ulink
     url="http://gnucash.1415818.n4.nabble.com/GnuCash-User-f1415819.html">Nabble</ulink>. One must <ulink
@@ -527,11 +523,11 @@
   </sect1>
 
   <sect1 id="oview-install1">
-    <title>Installation</title>
+    <title>安装</title>
 
-    <para>Installation of &app; is usually simple.</para>
+    <para>&app; 的安装非常简单：</para>
 
-    <para>The <ulink url="http://www.gnucash.org/download.phtml"><citetitle>&app; download page</citetitle></ulink> contains detailed instructions on how to install
-    &app; for each operating system supported.</para>
+    <para>The <ulink url="http://www.gnucash.org/download.phtml"><citetitle>&app; 下载页面</citetitle></ulink> 包括一些怎么在不同操作系统进行&apps;安装的细节说明。
+    </para>
   </sect1>
 </chapter>
