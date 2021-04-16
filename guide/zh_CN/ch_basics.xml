@@ -399,20 +399,22 @@
               <para>第一个界面简短地描述了向导做的事情。 </para>
           </listitem>
           <listitem>
-              <para><guilabel>New Book Options</guilabel> Appears only when creating a new book. Here you set various book attributes. This page has four tabs:
-              Accounts, Budgeting, Business, and Counters. These items are explained elsewhere in
-              the Guide, and can be changed at any time from <guimenu>File</guimenu>&gt;<guimenuitem>Properties</guimenuitem>.</para>
+              <para><guilabel>新的账簿选项</guilabel> 只在你创建新的账簿的时候出现，在这儿你可以设置多种多样的账簿属性。这个页面有四个标签：
+              Accounts, Budgeting, Business, and Counters. 这些内容都在这个手册的其他部分进行了解释，也可以通过
+              <guimenu>File</guimenu>&gt;<guimenuitem>Properties</guimenuitem>菜单随时进行更改。</para>
           </listitem>
           <listitem>
-              <para><guilabel>Choose Currency</guilabel> sets the hidden root account currency and the default currency for new accounts. The offered default is  based on the computer locale settings. Choose this carefully: Not only does it set the default currency for creating new accounts, it is the "Home" currency for the book and becomes the default currency for all stock pricing and foriegn currency exchange rates. While it can be changed by rerunning the <guilabel>New Account Hierarchy Setup</guilabel> Assistant from the <guimenu>Action</guimenu> menu, doing so after you've created transactions is risky.</para>
+              <para><guilabel>选择货币</guilabel> 设置根账户的货币以及新账户的默认货币，提供的默认货币是基于计算机的默认地区设置，要认真选择：
+               这步操作不仅设置了创建新账户时的默认货币，而且也为整个账户设置了默认的货币,并且也为所有的股票价格和外币利率设置了默认的货币。
+                 尽管可以通过<guimenu>Action</guimenu>菜单重新运行<guilabel>新的账簿选项</guilabel>向导，但是在已经创建了一些交易以后再进行这种操作存在风险。</para>
           </listitem>
           <listitem>
-            <para><guilabel>Choose accounts to create</guilabel> provides a variety of accounting categories that may be added to the book. There are two main panels: On the left the list of categories with a selection check box next to each one and on the right the accounts that will be added by the highlighted category.</para>
-            <para> Above the <guilabel>Categories</guilabel> list you'll find two list-buttons, one for language code and the other for country code. The initial selection is again based on your computer's locale settings. You may select any language and country combination that suits your needs.</para>
+            <para><guilabel>选择要创建账户</guilabel> 提供了许多种可以被添加到账簿中的会计科目。有两个主要的面板： 在左侧是一些科目的列表，每一个科目有一个复选框，而在右侧是左侧选中的科目所将会添加的账户。</para>
+            <para>在<guilabel>科目</guilabel>列表上方你将会看到两个列表按钮，一个是语言代码，而另一个是国家代码。初始默认选项是基于你电脑的地区设置，你可能需要选择满足你需要的语言和地区组合。 </para>
             <note><para>The <guilabel>New Account Hierarchy Setup</guilabel> Assistant can't process selections from more than one locale at a time, so if you need to select segments from multiple locales&mdash;perhaps because the categories for your primary locale are intended to extend those of another country&mdash;you'll need to run the assistant more than once from the <guimenu>Action</guimenu> menu.</para></note>
           </listitem>
           <listitem>
-              <para><guilabel>Setup selected accounts</guilabel> presents  the accounts from the categories you selected on <guilabel>Choose accounts to create</guilabel> in a non-collapsible tree view with four or five columns depending on whether or not you're creating a new book:
+              <para><guilabel>设置选择的账户</guilabel> presents  the accounts from the categories you selected on <guilabel>Choose accounts to create</guilabel> in a non-collapsible tree view with four or five columns depending on whether or not you're creating a new book:
               <itemizedlist>
                 <listitem><para><guilabel>Account Name</guilabel>. This is editable, just click in it or select the row and press <keycap>Enter</keycap>.</para></listitem>
                 <listitem><para><guilabel>Type</guilabel> Not editable. This is the type of the account.</para></listitem>
@@ -422,7 +424,7 @@
               </itemizedlist></para>
           </listitem>
           <listitem>
-              <para><guilabel>Finish account setup</guilabel> is the last screen and gives you a final option to cancel the process, back up to change something, or apply to confirm your choices. If you're creating a new book, gnucash will present a dialog to select a backend and either a file to save it or database server, database name, and credentials to create a MySQL or Postgresql database if GnuCash was built with those features and you have the necesaary dependencies installed.</para>
+              <para><guilabel>完成账户设置</guilabel> is the last screen and gives you a final option to cancel the process, back up to change something, or apply to confirm your choices. If you're creating a new book, gnucash will present a dialog to select a backend and either a file to save it or database server, database name, and credentials to create a MySQL or Postgresql database if GnuCash was built with those features and you have the necesaary dependencies installed.</para>
               <warning>
                   <para>If you choose to cancel, any selections you have made up to
                   this point will be lost.</para>
@@ -464,12 +466,11 @@
     </sect2>
 
     <sect2 id="basics-main2">
-      <title>Account Tree Window</title>
+      <title>账户树窗口</title>
 
-      <para>You should now see the <guilabel>Accounts</guilabel> window, which
-      appears as shown below. The exact layout of the account tree will depend
-      on which default accounts you selected during the New Account Hierarchy
-      Setup. In this example, the <guilabel>Common Accounts</guilabel> are shown.</para>
+      <para>你现在应该可以看到<guilabel>账户</guilabel>窗口，就像下图展示的这样。
+      实际的账户树内容将取决你在前面新建账户中的设置。
+      在这个示例中，the <guilabel>Common Accounts</guilabel> are shown.</para>
 
       <screenshot id="basics-Accounts">
         <mediaobject>
@@ -489,12 +490,11 @@
         </mediaobject>
       </screenshot>
 
-      <para>The Account Tree window (also known as a Chart of Accounts, or CoA) provides an overview of the data contained
-      in the current file. It contains a list of account names and their
-      current balances.</para>
-      <para>From this window, you can open the register of any
-      account either by double-clicking the account name, right clicking the account name and selecting <guilabel>Open Account</guilabel> from the
-      menu, or by using the <guibutton>Open</guibutton> button on the toolbar. &app; allows you to have as many account registers open as you wish. For more information on using account registers, see <xref linkend="basics-register2" />.</para>
+      <para>账户树窗口(also known as a Chart of Accounts, or CoA)提供了在当前文件中包括的数据的概览。
+      它包括一些账户的名字列表和账户当前余额的一个列表。
+      </para>
+      <para>从这个窗口中，你可以通过双击账户名字，右键单击账户名字并选择<guilabel>打开账户</guilabel>、工具栏的<guibutton>打开</guibutton>按钮三种方法打开账户的记录。
+      &app;中，你想拥有多少条账户记录就可以拥有多少条。For more information on using account registers, see <xref linkend="basics-register2" />.</para>
 
       <tip>
         <para>Clicking the small triangle to the left of an account that has children will expand the tree view showing child accounts.</para>
@@ -512,19 +512,17 @@
       tree. You can customize which headings show up by using the
       small <guiicon>down-arrow</guiicon> at the far right just above the account tree.</para>
 
-      <para>At the bottom is the <emphasis>Statusbar</emphasis>, which tells you
-      information about what you own (Net Assets) and how much money you have
-      made (Profits).</para>
+      <para>在底部是<emphasis>状态栏</emphasis>，它会告诉你一些你的资产净值和利润等相关信息。
+      </para>
 
 
     </sect2>
 
     <sect2 id="basics-register2">
-      <title>Account Register Window</title>
+      <title>账户记录窗口</title>
 
-      <para>Account Register windows are used to enter and edit your
-      account data. As the name suggests, they look similar to a checkbook
-      register.</para>
+      <para>账户记录窗口用于进入和编辑你的账户数据，它们有点像是支票登记簿。
+      </para>
 
       <screenshot id="basics-CheckAccount">
         <mediaobject>
@@ -576,7 +574,7 @@
     </sect2>
 
     <sect2 id="basics-toolbar2">
-      <title>Toolbar Buttons</title>
+      <title>工具栏按钮</title>
 
       <para>Both the account tree window and the account register window
       contain <emphasis>Toolbar</emphasis> buttons. These buttons provide quick access to common
