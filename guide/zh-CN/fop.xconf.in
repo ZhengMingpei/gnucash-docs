@@ -3,7 +3,7 @@
   <!-- BASEDIR_JA can be replaced with CMAKE_CURRENT_SOURCE_DIR
        once we completely drop the autotools build system -->
   <base>@BASEDIR_JA@</base>
-  <font-base>@japanese_fontdir@</font-base>
+  <font-base>@chinese_fontdir@</font-base>
   
   <!-- Information for specific renderers -->
   <!-- Uses renderer mime type for renderers -->
@@ -32,10 +32,10 @@
                           | 500 | 600 | 700 | 800 | 900
         (normal = 400, bold = 700)
         -->
-        <font kerning="yes" embed-url="@JAPANESE_MINCHO_TTF@">
+        <font kerning="yes" embed-url="@CHINESE_FANG_TTF@">
           <font-triplet name="serif" style="normal" weight="normal"/>
         </font>
-        <font kerning="yes" embed-url="@JAPANESE_GOTHIC_TTF@">
+        <font kerning="yes" embed-url="@CHINESE_HEI_TTF@">
           <font-triplet name="serif" style="normal" weight="bold" />
           <font-triplet name="sans-serif" style="normal" weight="normal"/>
           <font-triplet name="sans-serif" style="normal" weight="bold" />
