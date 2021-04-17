@@ -18,12 +18,12 @@
         zhengmingpei <zhengmingpei@163.com>
                (translators put your name and email here)
 -->
-<book id="index" lang="zh-CN"
+<book id="index" lang="zh_CN"
       xmlns:xi="http://www.w3.org/2001/XInclude">
 <!-- please do not change the id; for translations, change lang to -->
 <!-- appropriate code -->
  <bookinfo>
-  <title>&app; 入门教程及概念指南</title>
+  <title>&app;入门教程及概念指南</title>
   <edition>V&manrevision;</edition>
 
   <copyright>

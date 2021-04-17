@@ -71,6 +71,11 @@ set(JAPANESE_MINCHO_TTF "ume-tmo3.ttf" CACHE STRING "Mincho TrueType font used f
 set(JAPANESE_GOTHIC_TTF "ume-tmo3.ttf" CACHE STRING "Gothic TrueType font used for Japanese pdf")
 set(japanese_fontdir "${CMAKE_SOURCE_DIR}/fonts/truetype" CACHE STRING "Directory to search for Japanese fonts")
 
+# Set font dirs and font for Simple Chinese pdf documents
+set(CHINESE_FANG_TTF "simfang.ttf" CACHE STRING "FangSong TrueType font used for Chinese pdf")
+set(CHINESE_HEI_TTF "simhei.ttf" CACHE STRING "Hei TrueType font used for Chinese pdf")
+set(chinese_fontdir "${CMAKE_SOURCE_DIR}/fonts/truetype" CACHE STRING "Directory to search for Chinese fonts")
+
 # Buildtime destination directories for our generated documentation
 set(DATADIR_BUILD "${CMAKE_BINARY_DIR}/share")
 set(DOCDIR_BUILD  "${DATADIR_BUILD}/doc/${PACKAGE}")
