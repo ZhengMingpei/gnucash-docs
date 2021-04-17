@@ -81,6 +81,7 @@ own entity definitions to use across all of our DocBook pages. -->
 <!ENTITY url-docs-build-ja "https://code.gnucash.org/docs/ja/gnucash-">
 <!ENTITY url-docs-build-pt "https://code.gnucash.org/docs/pt/gnucash-">
 <!ENTITY url-docs-build-ru "https://code.gnucash.org/docs/ru/gnucash-">
+<!ENTITY url-docs-build-zh-CN "https://code.gnucash.org/docs/zh-CN/gnucash-">
 <!ENTITY url-doc-api-main "https://code.gnucash.org/docs/MAINT/">
 <!ENTITY url-doc-api-mast "https://code.gnucash.org/docs/MASTER/">
 
@@ -132,6 +133,7 @@ own entity definitions to use across all of our DocBook pages. -->
 <!ENTITY url-wp-ja "https://ja.wikipedia.org/wiki/">  <!-- Append the desired topic -->
 <!ENTITY url-wp-pt "https://pt.wikipedia.org/wiki/">  <!-- Append the desired topic -->
 <!ENTITY url-wp-ru "https://ru.wikipedia.org/wiki/">  <!-- Append the desired topic -->
+<!ENTITY url-wp-zh-CN "https://zh-CN.wikipedia.org/wiki/">  <!-- Append the desired topic -->
 <!ENTITY url-yh-fin "https://finance.yahoo.com/">  <!-- Append the desired topic -->
 <!ENTITY url-yh-hlp "https://help.yahoo.com/">  <!-- Append the desired topic -->
 <!-- c) URLs of Authors -->

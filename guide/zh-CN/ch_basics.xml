@@ -25,7 +25,7 @@
   <title>基础知识</title>
 
   <para>这个章节将会介绍一些使用&app;的基础知识。 
-  建议你在开始用&apps;做任何实际操作之前，要先通读一下本章节。
+  建议你在开始用&app;做任何实际操作之前，要先通读一下本章节。
   下一个章节将会展示一些实例。
   </para>
 
@@ -1490,6 +1490,4 @@
     </listitem>
   </orderedlist>
 </sect1>
-<xi:include href="ch_accts.xml" />
-<xi:include href="ch_txns.xml" />
 </chapter>
